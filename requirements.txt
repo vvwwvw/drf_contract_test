@@ -1,0 +1,12 @@
+asgiref==3.3.1
+dj-database-url==0.5.0 #heroku에서 사용하는 DB인 postgresql을 위한것
+Django==3.1.13
+django-cors-headers==3.7.0  #cors에러 방지
+djangorestframework==3.12.4
+gunicorn==20.1.0 #배포를위한 도구
+psycopg2-binary==2.9.1 #heroku에서 사용하는 DB인 postgresql을 위한것
+pytz==2021.1
+sqlparse==0.3.1
+toml==0.10.2
+whitenoise==5.3.0 #정적파일의 사용을 돕는 미들웨어
+
